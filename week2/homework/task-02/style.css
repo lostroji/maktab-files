@@ -1,0 +1,45 @@
+main, header {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+header {
+  padding: 20px;
+}
+
+img {
+  width: 50%;
+  height: auto;
+}
+
+section {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.whole-content-border {
+  border: 2px solid lightgray;
+}
+
+.photo-description {
+  color: #2A6A97;
+}
+
+.h2-padding {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.tag-container {
+  background-color: #DCE7FF;
+  color: #405CA3;
+  padding: 10px;
+  margin: 5px;
+}
+
+.link-placement {
+  padding-top: 30px;
+  display: block;
+  padding-bottom: 20px;
+}
