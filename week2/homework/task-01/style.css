@@ -1,0 +1,44 @@
+.header-container {
+  background-color: #1C3557;
+  color: white;
+  padding: 20px;
+}
+
+.nav-container {
+  background-color: #457C9D;
+  color: white;
+  padding: 10px;
+}
+
+.nav-links {
+  color: white;
+  padding: 10px;
+}
+
+hr {
+  border: none;
+  height: 2px;
+  background-color: #D9D9D9;
+}
+
+.first-section-padding {
+  padding-top: 20px;
+}
+
+section {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+h2 {
+  padding-top: 10px;
+}
+
+.h3-container {
+  background-color: #FEF1F0;
+  color: #C0122C;
+  padding: 10px;
+}
+.p-color{
+  color: #307094;
+}
