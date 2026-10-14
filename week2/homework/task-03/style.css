@@ -1,0 +1,41 @@
+body{
+  background-color: lightgray;
+}
+
+header {
+  background-color: #243B55;
+  color: white;
+  padding: 30px 20px 20px 20px;
+  margin: 20px;
+}
+
+main {
+  background-color: lightgray;
+  padding: 20px;
+}
+
+section {
+  background-color: white;
+  padding: 20px;
+}
+
+div {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.blue-notification {
+  border: 2px solid #2978B5;
+  background-color: #E5F3FF;
+}
+
+.yellow-notification {
+  border: 2px solid #DA9D06;
+  background-color: #FFF3CD;
+}
+
+.red-notification {
+  border: 2px solid #CC3838;
+  background-color: #FFE5E4;
+}
+
