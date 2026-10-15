@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header-container {
+  background-color: #043F46;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+
+  nav {
+    display: flex;
+    gap: 20px;
+  }
+}
+
+.header-link {
+  text-decoration: none;
+  color: white;
+}
+
+.section-container {
+  /*background-color: #1F4449;*/
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding: 50px 20px 50px 20px;
+  background: radial-gradient(#454C4A, #1D3E44);
+}
+
+.div-container {
+  display: flex;
+  gap: 10px;
+}
+
+.tag-container {
+  border: 1px solid #5C6D73;
+  background-color: #304C53;
+  padding: 10px;
+}
+
+.button-container {
+  max-width: fit-content;
+  background-color: white;
+  color: #043F46;
+  border-radius: 25px;
+  padding: 15px 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.course-container {
+  padding: 30px;
+  /*background-color: #f5f9fa;*/
+  background: linear-gradient(to left, #F0F4F4, #F8FAF9, #F5EFE3);
+}
+
+.cards-container {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  /* padding: 10px; */
+}
+
+.fehrest-doreha {
+  color: #304C53;
+  margin-bottom: 30px;
+}
+
+.course-card {
+  background-color: white;
+  border: 1px solid #D3E5E9;
+  border-radius: 20px;
+  overflow: clip;
+}
+
+.course-img {
+  display: inline-block;
+  width: 100%;
+}
+
+.course-content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card-header {
+  color: #304C53;
+}
+
+.card-link {
+  color: #304C53;
+  font-weight: bold;
+}
+
+.card-paragraph {
+  color: lightslategray;
+}
+
+.card-span {
+  color: orangered;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 30px;
+  background: linear-gradient(to left, #F0F4F4, #F8FAF9, #F5EFE3);
+
+}
+
+.about-card-footer {
+  padding: 30px;
+  font-size: 1.5em;
+}
+
+.footer-contact {
+  color: white;
+  background: linear-gradient(to right, #094A51, #015C67);
+  grid-column: 1 / 3;
+}
+
+.footer-end {
+  color: white;
+  background-color: #013c42;
+  text-align: center;
+  padding: 25px;
+}
