@@ -1,0 +1,50 @@
+.container {
+  width: 100vw;
+  display: grid;
+  grid-template-columns: auto;
+  border: 2px solid red;
+}
+
+@media (min-width: 600px) {
+  .container {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media (min-width: 1000px) {
+  .container {
+    grid-template-columns: auto auto auto;
+  }
+}
+
+.div-size {
+  height: 1200px;
+  width: 300px;
+  background-color: yellow;
+}
+
+.div-sticky {
+  position: sticky;
+  background-color: #013c42;
+  height: 100px;
+  width: 100px;
+}
+
+.div-fixed {
+  background-color: #2978B5;
+  position: fixed;
+  z-index: 1;
+  height: 200px;
+  width: 200px;
+}
+
+button:hover {
+  background-color: red;
+  color: white;
+  transition: 1000ms
+}
+
+button:active {
+  background-color: green;
+  color: white;
+}

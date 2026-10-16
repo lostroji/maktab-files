@@ -113,7 +113,7 @@
   grid-template-columns: 1fr 1fr;
   gap: 20px;
   padding: 30px;
-  background: linear-gradient(to left, #F0F4F4, #F8FAF9, #F5EFE3);
+  background: linear-gradient( #F0F4F4, #F8FAF9, #F5EFE3);
 
 }
 
@@ -134,3 +134,5 @@
   text-align: center;
   padding: 25px;
 }
+
+

@@ -1,0 +1,36 @@
+.header-container {
+  color: #F6BD00;
+  background-color: #222222;
+  height: 200%;
+}
+
+.header-text-padding {
+  padding: 10px;
+}
+
+.nav-container {
+  background-color: #111111;
+  text-align: center;
+  padding: 10px;
+}
+
+a {
+  color: white;
+  text-align: center;
+}
+
+.section-container {
+  background-color: #FBD995;
+  height: 400px;
+}
+
+.footer-container {
+  background-color: #111111;
+  color: white;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+p {
+  margin: 0;
+}

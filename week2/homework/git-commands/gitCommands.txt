@@ -1,0 +1,62 @@
+rojinab78gmail.com@Rojinas-MacBook-Pro bootcamp % git init
+ghint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint:
+hint:   git config --global init.defaultBranch <name>
+hint:
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint:
+hint:   git branch -m <name>
+Initialized empty Git repository in /Users/rojinab78gmail.com/WebstormProjects/bootcamp/.git/
+rojinab78gmail.com@Rojinas-MacBook-Pro bootcamp % git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .editorconfig
+        .gitattributes
+        .gitignore
+        404.html
+        LICENSE.txt
+        Week1/
+        css/
+        favicon.ico
+        icon.png
+        icon.svg
+        img/
+        index.html
+        js/
+        mojtame/
+        package.json
+        robots.txt
+        site.webmanifest
+        webpack.common.js
+        webpack.config.dev.js
+        webpack.config.prod.js
+        week2/
+
+nothing added to commit but untracked files present (use "git add" to track)
+rojinab78gmail.com@Rojinas-MacBook-Pro bootcamp % git add week2/homework/task-01
+rojinab78gmail.com@Rojinas-MacBook-Pro bootcamp % git commit -m "Add task-01"
+[master (root-commit) 7cde76e] Add task-01
+ 2 files changed, 103 insertions(+)
+ create mode 100644 week2/homework/task-01/index.html
+ create mode 100644 week2/homework/task-01/style.css
+rojinab78gmail.com@Rojinas-MacBook-Pro bootcamp % git add week2/homework/task-02/
+rojinab78gmail.com@Rojinas-MacBook-Pro bootcamp % git commit -m "Add task-02"
+[master de22bd2] Add task-02
+ 3 files changed, 74 insertions(+)
+ create mode 100644 week2/homework/task-02/book-picture.jpg
+ create mode 100644 week2/homework/task-02/index.html
+ create mode 100644 week2/homework/task-02/style.css
+rojinab78gmail.com@Rojinas-MacBook-Pro bootcamp % git add week2/homework/task-03
+rojinab78gmail.com@Rojinas-MacBook-Pro bootcamp % git commit -m "Add task-03"
+[master 64247bc] Add task-03
+ 2 files changed, 80 insertions(+)
+ create mode 100644 week2/homework/task-03/index.html
+ create mode 100644 week2/homework/task-03/style.css
+rojinab78gmail.com@Rojinas-MacBook-Pro bootcamp %

@@ -1,4 +1,4 @@
-body{
+body {
   background-color: lightgray;
 }
 
@@ -19,7 +19,7 @@ section {
   padding: 20px;
 }
 
-div {
+.notification {
   padding: 20px;
   margin-bottom: 20px;
 }
