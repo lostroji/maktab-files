@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.div1 {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  top: 50px;
+  left: 50px;
+}
+
+.div2 {
+  background-color: blue;
+  width: 500px;
+  height: 1000px;
+  /*position: relative;*/
+}

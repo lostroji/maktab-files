@@ -1,0 +1,44 @@
+rojinab78gmail.com@Rojinas-MacBook-Pro bootcamp % git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    LICENSE.txt
+        deleted:    week3/hw/index.html
+        deleted:    week3/hw/style.css
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        week3/hw/part-01/
+        week3/hw/part-02/
+        week4/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+rojinab78gmail.com@Rojinas-MacBook-Pro bootcamp % git add .
+rojinab78gmail.com@Rojinas-MacBook-Pro bootcamp % git commit -m "Add homework week 3"
+[main 3b5aefd] Add homework week 3
+ 9 files changed, 740 insertions(+), 29 deletions(-)
+ delete mode 100644 LICENSE.txt
+ delete mode 100644 week3/hw/index.html
+ create mode 100644 week3/hw/part-01/index.html
+ create mode 100644 week3/hw/part-01/style.css
+ create mode 100644 week3/hw/part-02/index.html
+ create mode 100644 week3/hw/part-02/style.css
+ delete mode 100644 week3/hw/style.css
+ create mode 100644 week4/saturday/index.html
+ create mode 100644 week4/saturday/style.css
+rojinab78gmail.com@Rojinas-MacBook-Pro bootcamp % git push
+Enumerating objects: 17, done.
+Counting objects: 100% (17/17), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (13/13), done.
+Writing objects: 100% (14/14), 7.60 KiB | 3.80 MiB/s, done.
+Total 14 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote: This repository moved. Please use the new location:
+remote:   git@github.com:lostroji/maktab-files.git
+To github.com:lostroji/week3-maktab-files.git
+   140785f..3b5aefd  main -> main
+rojinab78gmail.com@Rojinas-MacBook-Pro bootcamp %

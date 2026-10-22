@@ -1,0 +1,48 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+.form-items {
+  padding: 40px;
+  border: 1px lightgray solid;
+  border-radius: 10px;
+  width: 400px;
+  position: relative;
+
+
+  input {
+    padding: 12px;
+    border-radius: 8px;
+    width: 100%;
+    border: lightgray solid 2px;
+  }
+
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: #37CC8F;
+    border-radius: 8px;
+    border: none;
+    color: white;
+  }
+
+  p {
+    color: #9b9b9b;
+    font-size: 14px;
+    text-align: center;
+    padding: 20px 0 0 0;
+  }
+}
+
+.p-alignment {
+  position: absolute;
+  top: -40px;
+  padding: 20px;
+}
+
+.div-alignment {
+  padding: 100px;
+}
