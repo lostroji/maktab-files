@@ -76,6 +76,7 @@ main {
   border-radius: 12px;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   gap: 16px;
   padding: 20px 16px;
 }
@@ -113,6 +114,7 @@ main {
   font-weight: bold;
   padding: 12px;
   width: fit-content;
+  text-decoration: none;
 }
 
 .card-template-last-sections {

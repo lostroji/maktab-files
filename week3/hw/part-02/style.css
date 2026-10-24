@@ -74,7 +74,7 @@ main {
   top: 20px;
   left: 20px;
 
-  @media (max-width: 600px) {
+  @media (max-width: 550px) {
     display: flex;
     flex-direction: column;
   }
@@ -125,6 +125,11 @@ main {
   flex-wrap: wrap;
   align-items: center;
   gap: 12px;
+  
+  a {
+    text-decoration: none;
+    color: #000;
+  }
 }
 
 .list-item-number {
